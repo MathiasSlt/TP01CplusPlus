@@ -26,7 +26,7 @@ bool Encrypt::read(bool isPlain, std::string filename)
 		fileError = false;
 		if (isPlain)
 		{
-			getline(file, _plain);
+			while (getline(file, _plain)) getline(file, _plain);
 		}
 		else {
 			file >> _cipher;

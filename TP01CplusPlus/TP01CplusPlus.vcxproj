@@ -151,10 +151,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Caesar.cpp" />
+    <ClCompile Include="CaesarV2.cpp" />
     <ClCompile Include="Encrypt.cpp" />
     <ClCompile Include="TP01CplusPlus.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Caesar.h" />
+    <ClInclude Include="CaesarV2.h" />
     <ClInclude Include="Encrypt.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
