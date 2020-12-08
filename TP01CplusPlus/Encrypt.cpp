@@ -20,13 +20,13 @@ string Encrypt::getCipher() const
 bool Encrypt::read(bool isPlain, std::string filename)
 {
 	bool fileError = true;
-	ifstream file(filename, ios::in);
+	ifstream file(filename);
 	if (file)
 	{
 		fileError = false;
 		if (isPlain)
 		{
-			file >> _plain;
+			getline(file, _plain);
 		}
 		else {
 			file >> _cipher;
