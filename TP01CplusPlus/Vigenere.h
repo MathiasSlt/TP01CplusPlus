@@ -1,12 +1,15 @@
 #pragma once
 #include "Encrypt.h"
+#include <vector>
 class Vigenere : public Encrypt
 {
 public:
-	Vigenere();
-	string getKeyCipher() const;
+	Vigenere(vector<int> tabKey);
+	vector<int> getKeyCipher() const;
+	string encode();
+	string decode();
 private:
-	string _keyCipher;
-	
-};
+	vector<int> _keyCipher;
 
+
+};
