@@ -39,7 +39,7 @@ bool Encrypt::read(bool isPlain, std::string filename)
 bool Encrypt::write(bool isPlain, std::string filename)
 {
 	bool fileError = true;
-	ofstream file(filename, ios::out);
+	ofstream file(filename);
 	if (file)
 	{
 		fileError = false;
