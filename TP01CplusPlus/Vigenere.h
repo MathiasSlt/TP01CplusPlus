@@ -11,6 +11,4 @@ public:
 private:
 	vector<int> _keyCipher;
 	
-	
 };
-

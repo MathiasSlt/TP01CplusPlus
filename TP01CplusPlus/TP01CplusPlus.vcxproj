@@ -154,6 +154,7 @@
     <ClCompile Include="Caesar.cpp" />
     <ClCompile Include="CaesarV2.cpp" />
     <ClCompile Include="Encrypt.cpp" />
+    <ClCompile Include="Enigma.cpp" />
     <ClCompile Include="TP01CplusPlus.cpp" />
     <ClCompile Include="Vigenere.cpp" />
   </ItemGroup>
@@ -161,6 +162,7 @@
     <ClInclude Include="Caesar.h" />
     <ClInclude Include="CaesarV2.h" />
     <ClInclude Include="Encrypt.h" />
+    <ClInclude Include="Enigma.h" />
     <ClInclude Include="Vigenere.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

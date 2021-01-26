@@ -13,12 +13,12 @@ vector<int> Vigenere::getKeyCipher() const
 string Vigenere::encode()
 {
 	string plain = getPlain();
-	string messageCode="";
+	string messageCode = "";
 	vector<int> key = getKeyCipher();
 	int c(0);
 	for (int i = 0; i < plain.length(); i++)
 	{
-		
+
 		messageCode.push_back(plain[i] + key[c]);
 		c++;
 		if (c == getKeyCipher().size())
